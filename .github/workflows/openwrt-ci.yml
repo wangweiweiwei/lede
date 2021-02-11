@@ -14,7 +14,7 @@ jobs:
 
     name: Build OpenWrt firmware
 
-    runs-on: Ubuntu 18.04
+    runs-on: ubuntu-18.04
 
     if: github.event.repository.owner.id == github.event.sender.id
 
